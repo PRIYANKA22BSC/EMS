@@ -1,8 +1,24 @@
-# React + Vite
+# 📌 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Employee Management System (EMS) is a frontend-based application where admins can assign tasks to employees, and employees can view their assigned tasks. This project is designed to improve task management within an organization, offering a simple and intuitive interface.
 
-Currently, two official plugins are available:
+# 🔗 Link
+Live Demo: https://ems-six-tau.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🚀 Features
+
+Role-Based Access Control: Admins can assign tasks, while employees can only view their tasks.
+
+Task Assignment & Tracking: Admins can create, update, and delete tasks.
+
+Persistent Data Storage: Uses LocalStorage to store employee and task data without the need for a backend.
+
+Responsive UI: Designed with Tailwind CSS to ensure a smooth experience across devices.
+
+Interactive User Interface: Built with React.js, providing dynamic UI updates.
+
+# 🛠 Tech Stack
+
+Frontend: HTML, CSS, Tailwind CSS, JavaScript, React.js
+
+Storage: LocalStorage (for data persistence)
