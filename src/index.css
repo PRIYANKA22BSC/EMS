@@ -1,18 +1,16 @@
 @import "tailwindcss";
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: black;
-  
- 
+body {
+  background-color: black;
 }
 
-#tasklist::-webkit-scrollbar{
-display: none;
+#tasklist::-webkit-scrollbar {
+  display: none;
 }
 
-#alltask::-webkit-scrollbar{
-    display: none;
-    }
+#alltask::-webkit-scrollbar {
+  display: none;
+}
