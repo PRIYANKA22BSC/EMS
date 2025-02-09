@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = ({ loggdata, logOut }) => {
   return (
-    <div className="flex justify-between h-28">
+    <div className=" flex justify-between h-28">
       <div className="h-25 text-4xl text-white">
         Hello <p className="font-bold">{loggdata.name} 👋</p>
       </div>
